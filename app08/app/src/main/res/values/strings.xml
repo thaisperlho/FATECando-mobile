@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">app08</string>
+
+    <string name="batata">Batata frita</string>
+    <string name="refri">Refrigerante</string>
+    <string name="lanche">Hamburgue</string>
+    <string name="agua">Agua</string>
+    <string name="frango">Frango frito</string>
+    <string name="coxinha">Coxinha</string>
+</resources>
