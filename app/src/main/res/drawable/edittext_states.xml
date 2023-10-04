@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- desativado -->
+    <item android:state_enabled="false">
+        <shape android:shape="rectangle">
+            <stroke android:width="1dp" android:color="#FF0000" />
+            <corners android:radius="3dp" />
+            <solid android:color="#FF0000" />
+            <padding
+                android:left="12dp"
+                android:top="12dp"
+                android:right="12dp"
+                android:bottom="12dp"/>
+        </shape>
+    </item>
+    <!-- pressionado -->
+    <item android:state_pressed="true" android:state_enabled="true">
+        <shape android:shape="rectangle">
+            <stroke android:width="1dp" android:color="#D8BFD8" />
+            <corners android:radius="3dp" />
+            <solid android:color="#D8BFD8" />
+            <padding
+                android:left="12dp"
+                android:top="12dp"
+                android:right="12dp"
+                android:bottom="12dp"/>
+        </shape>
+    </item>
+    <!-- focado -->
+    <item android:state_focused="true" android:state_enabled="true">
+        <shape android:shape="rectangle">
+            <stroke android:width="1dp" android:color="#fcf6bd" />
+            <corners android:radius="3dp" />
+            <solid android:color="#fcf6bd" />
+            <padding
+                android:left="12dp"
+                android:top="12dp"
+                android:right="12dp"
+                android:bottom="12dp"/>
+        </shape>
+    </item>
+    <!-- habilitado -->
+    <item android:state_enabled="true">
+        <shape android:shape="rectangle">
+            <stroke android:width="1dp" android:color="#ff99c8" />
+            <corners android:radius="3dp" />
+            <solid android:color="#ff99c8" />
+            <padding
+                android:left="12dp"
+                android:top="12dp"
+                android:right="12dp"
+                android:bottom="12dp"/>
+        </shape>
+    </item>
+</selector>
